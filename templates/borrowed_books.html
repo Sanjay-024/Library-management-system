@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{{ user.name }}'s Borrowed Books</h2>
+{% if user.borrowed_books %}
+<ul>
+    {% for book in user.borrowed_books %}
+        <li>{{ book.title }} by {{ book.author }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>{{ user.name }} has not borrowed any books.</p>
+{% endif %}
+{% endblock %}

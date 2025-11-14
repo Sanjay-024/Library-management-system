@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Search for a Book</h2>
+<form method="post" action="{{ url_for('search_book') }}">
+    <div>
+        <label for="title">Book Title:</label>
+        <input type="text" name="title" id="title" required>
+    </div>
+    <div>
+        <input type="submit" value="Search">
+    </div>
+</form>
+
+{% if found_books %}
+<h3>Search Results:</h3>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Available Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for book in found_books %}
+        <tr>
+            <td>{{ book.book_id }}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.quantity }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
