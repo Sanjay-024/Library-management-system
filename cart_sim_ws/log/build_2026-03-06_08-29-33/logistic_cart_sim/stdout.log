@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/logistic_cart_sim/logistic_cart_sim.egg-info
+writing ../../build/logistic_cart_sim/logistic_cart_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/logistic_cart_sim/logistic_cart_sim.egg-info/dependency_links.txt
+writing requirements to ../../build/logistic_cart_sim/logistic_cart_sim.egg-info/requires.txt
+writing top-level names to ../../build/logistic_cart_sim/logistic_cart_sim.egg-info/top_level.txt
+writing manifest file '../../build/logistic_cart_sim/logistic_cart_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/logistic_cart_sim/logistic_cart_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/logistic_cart_sim/logistic_cart_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sanjay/cart_sim_ws/build/logistic_cart_sim/build
+creating /home/sanjay/cart_sim_ws/build/logistic_cart_sim/build/lib
+creating /home/sanjay/cart_sim_ws/build/logistic_cart_sim/build/lib/logistic_cart_sim
+copying logistic_cart_sim/__init__.py -> /home/sanjay/cart_sim_ws/build/logistic_cart_sim/build/lib/logistic_cart_sim
+running install
+running install_lib
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/lib/python3.12/site-packages/logistic_cart_sim
+copying /home/sanjay/cart_sim_ws/build/logistic_cart_sim/build/lib/logistic_cart_sim/__init__.py -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/lib/python3.12/site-packages/logistic_cart_sim
+byte-compiling /home/sanjay/cart_sim_ws/install/logistic_cart_sim/lib/python3.12/site-packages/logistic_cart_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/ament_index
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/ament_index/resource_index
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/ament_index/resource_index/packages
+copying resource/logistic_cart_sim -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/launch
+copying launch/sim.launch.py -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/launch
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/urdf
+copying urdf/logistic_cart.urdf.xacro -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/urdf
+creating /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/worlds
+copying worlds/warehouse.world -> /home/sanjay/cart_sim_ws/install/logistic_cart_sim/share/logistic_cart_sim/worlds
+running install_egg_info
+Copying ../../build/logistic_cart_sim/logistic_cart_sim.egg-info to /home/sanjay/cart_sim_ws/install/logistic_cart_sim/lib/python3.12/site-packages/logistic_cart_sim-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/sanjay/cart_sim_ws/build/logistic_cart_sim/install.log'

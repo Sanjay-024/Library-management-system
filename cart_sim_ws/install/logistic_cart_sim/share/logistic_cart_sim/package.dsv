@@ -1,0 +1,4 @@
+source;share/logistic_cart_sim/hook/pythonpath.dsv
+source;share/logistic_cart_sim/hook/pythonpath.sh
+source;share/logistic_cart_sim/hook/ament_prefix_path.dsv
+source;share/logistic_cart_sim/hook/ament_prefix_path.sh
